@@ -1,0 +1,49 @@
+{
+    "name": "alirezarazavi/larabale",
+    "description": "Laravel Package for Bale Bot API",
+    "keywords": [
+        "bale",
+        "bale bot",
+        "bale bot api",
+        "bale sdk",
+        "bale php",
+        "laravel bale",
+        "laravel"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/alirezarazavi/larabale",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alireza Razavi",
+            "email": "hi@alirezarazavi.com",
+            "homepage": "https://github.com/alirezarazavi"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.0 || ^6.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpspec/prophecy": "~1.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlirezaRazavi\\LaraBale\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlirezaRazavi\\LaraBale\\LaraBaleServiceProvider"
+            ],
+            "aliases": {
+                "Bale": "AlirezaRazavi\\LaraBale\\Facades\\Bale"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
