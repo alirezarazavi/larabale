@@ -2,17 +2,18 @@
     "name": "alirezarazavi/larabale",
     "description": "Laravel Package for Bale Bot API",
     "keywords": [
-        "bale",
-        "bale bot",
-        "bale bot api",
-        "bale sdk",
-        "bale php",
+        "laravel",
+        "laravel-package",
         "laravel bale",
-        "laravel"
+        "bale bot api",
+        "bale bot",
+        "bale",
+        "persian",
+        "messenger"
     ],
     "type": "library",
     "homepage": "https://github.com/alirezarazavi/larabale",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alireza Razavi",
@@ -44,6 +45,7 @@
             }
         }
     },
+    "version": "0.1.0",
     "minimum-stability": "dev",
     "prefer-stable": true
 }

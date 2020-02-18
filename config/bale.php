@@ -13,5 +13,5 @@ return [
     | https://devbale.ir/
     |
     */
-    'bale_bot_token' => env('BALE_BOT_TOKEN', '16840143:9c6fa4b12a23d3c87a550ee3b9edd36b247b970f'),
+    'bale_bot_token' => env('BALE_BOT_TOKEN', 'YOUR-BOT-API-TOKEN'),
 ];
